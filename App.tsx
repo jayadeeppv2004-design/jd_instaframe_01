@@ -3,6 +3,7 @@ import { Upload, Image as ImageIcon, Download, Settings, Loader2, X, Grid, Layou
 import { jsPDF } from 'jspdf';
 import Cropper from 'react-easy-crop';
 import { processBatch, getCroppedImg } from './services/videoProcessor';
+// This was likely missing or breaking the build!
 import CollageCanvas, { CollageCanvasHandle } from './components/CollageCanvas';
 import { ProcessedImage, CollageSettings, ProcessingStatus, TemplateId } from './types';
 
